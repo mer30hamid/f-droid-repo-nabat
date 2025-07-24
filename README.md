@@ -15,7 +15,7 @@ This repository is a template for an [F-Droid](https://f-droid.org) repo using G
 
 1. At first, you should [install the F-Droid app](https://f-droid.org/), it's an alternative app store for Android.
 
-2. Now you can copy the following link: https://raw.githubusercontent.com/[USERNAME]/fdroid/main/fdroid/repo?fingerprint=FINGERPRINT], then add this repository to your F-Droid client:
+2. Now you can copy the following link: https://raw.githubusercontent.com/mer30hamid/f-droid-repo-nabat/main/fdroid/repo?fingerprint=E512EDD1FA054C85E6BA2A24615ED4F3B78CBDC4DC3F4616879B9896AD66CC0D, then add this repository to your F-Droid client:
    
    ```
    https://raw.githubusercontent.com/mer30hamid/f-droid-repo-nabat/main/fdroid/repo?fingerprint=E512EDD1FA054C85E6BA2A24615ED4F3B78CBDC4DC3F4616879B9896AD66CC0D
