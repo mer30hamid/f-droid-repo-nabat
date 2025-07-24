@@ -1,4 +1,12 @@
 #!/bin/bash
+set -e
+echo "::group::Initializing F-Droid repository"
+fdroid init --verbose || true # Ignore if already initialized
+echo "Updating F-Droid repository"
+fdroid update --create-metadata --verbose
+echo "Signing F-Droid repository"
+fdroid sign --verbose
+echo "::endgroup::"
 
 cd metascoop
 echo "::group::Building metascoop executable"
