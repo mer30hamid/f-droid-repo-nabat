@@ -5,7 +5,7 @@ fdroid init --verbose || true # Ignore if already initialized
 echo "Updating F-Droid repository"
 fdroid update --create-metadata --verbose
 echo "Signing F-Droid repository"
-fdroid sign --verbose
+fdroid gpgsign --verbose
 echo "::endgroup::"
 
 cd metascoop
