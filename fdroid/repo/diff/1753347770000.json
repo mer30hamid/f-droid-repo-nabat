@@ -1,0 +1,57 @@
+{
+  "repo": {
+    "timestamp": 1753347775000,
+    "categories": {
+      "fdroid": null,
+      "Writing": {
+        "name": {
+          "en-US": "Writing"
+        }
+      }
+    }
+  },
+  "packages": {
+    "io.github.xarantolus.notality": {
+      "metadata": {
+        "categories": [
+          "Writing"
+        ],
+        "license": "MIT",
+        "sourceCode": "https://github.com/xarantolus/notality",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/1.png",
+                "sha256": "52a423e0ca901b2a55975e96f49a950d113dcaf3e2b9ab5b9cd7327ed5b40769",
+                "size": 65822
+              },
+              {
+                "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/2.png",
+                "sha256": "c256538cfef846f7b32cfef746cf9aa15c06badcd52ccb57ea56e78e558f5686",
+                "size": 109724
+              },
+              {
+                "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/3.png",
+                "sha256": "35e5c85b52c43e7a4bf4632b649636c2bafa2bb5896c7fabfb8a3276955bc19c",
+                "size": 65975
+              },
+              {
+                "name": "/io.github.xarantolus.notality/en-US/phoneScreenshots/4.png",
+                "sha256": "c4126cd8d8f758127df962db7b6688789a043bd208dc3e94f38a780ddddc0418",
+                "size": 110866
+              }
+            ]
+          }
+        },
+        "authorName": "xarantolus",
+        "summary": {
+          "en-US": "A very simple note taking app for Android"
+        },
+        "description": {
+          "en-US": "Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.\n\n<b>Features</b>\n\n- Create, edit, delete and reorder notes\n- Automatic dark/light mode depending on the system-wide setting\n- Import/Export your notes to save them externally\n- Localization for English and German\n"
+        }
+      }
+    }
+  }
+}

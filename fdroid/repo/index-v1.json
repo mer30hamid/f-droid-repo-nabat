@@ -1,1 +1,333 @@
-{"repo": {"timestamp": 1753345013000, "version": 20002, "name": "My First F-Droid Repo Demo", "icon": "icon.png", "address": "https://raw.githubusercontent.com/mer30hamid/f-droid-repo-nabat/main/fdroid/repo", "description": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."}, "requests": {"install": [], "uninstall": []}, "apps": [], "packages": {}}
+{
+  "repo": {
+    "timestamp": 1753347775000,
+    "version": 20002,
+    "name": "My First F-Droid Repo Demo",
+    "icon": "icon.png",
+    "address": "https://raw.githubusercontent.com/mer30hamid/f-droid-repo-nabat/main/fdroid/repo",
+    "description": "This is a repository of apps to be used with F-Droid. Applications in this repository are either official binaries built by the original application developers, or are binaries built from source by the admin of f-droid.org using the tools on https://gitlab.com/fdroid."
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "xarantolus",
+      "categories": [
+        "Writing"
+      ],
+      "suggestedVersionName": "1.8.1",
+      "suggestedVersionCode": "10",
+      "description": "Notality is a very simple note taking app. I mostly built it to learn how Flutter works, but it's functional and you can use it.\n\n<b>Features</b>\n\n- Create, edit, delete and reorder notes\n- Automatic dark/light mode depending on the system-wide setting\n- Import/Export your notes to save them externally\n- Localization for English and German\n",
+      "license": "MIT",
+      "name": "Notality",
+      "sourceCode": "https://github.com/xarantolus/notality",
+      "summary": "A very simple note taking app for Android",
+      "added": 1753347763000,
+      "icon": "io.github.xarantolus.notality.10.png",
+      "packageName": "io.github.xarantolus.notality",
+      "lastUpdated": 1753347770000,
+      "localized": {
+        "en-US": {
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png"
+          ],
+          "whatsNew": "I just found out how to make the swipe animation (when deleting a note) a lot better. So this release contains that change."
+        }
+      }
+    }
+  ],
+  "packages": {
+    "io.github.xarantolus.notality": [
+      {
+        "added": 1753347770000,
+        "apkName": "notality_v1.8.1.apk",
+        "hash": "a2c14612ca0cac122e2a1c71f9bd3e36bf42dc774dfdb6386cea77238e3c0010",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19970355,
+        "targetSdkVersion": 30,
+        "versionCode": 10,
+        "versionName": "1.8.1"
+      },
+      {
+        "added": 1753347770000,
+        "apkName": "notality_v1.8.0.apk",
+        "hash": "9da33a99e9a8041044b060935907985bd644558e6c93efad9721840971f811e2",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19941818,
+        "targetSdkVersion": 30,
+        "versionCode": 9,
+        "versionName": "1.8.0"
+      },
+      {
+        "added": 1753347769000,
+        "apkName": "notality_v1.7.0.apk",
+        "hash": "7b48074dc5cda19179af23ec76b04aee217ef2be1df3cd96f2cf919f0a506c6b",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19940101,
+        "targetSdkVersion": 30,
+        "versionCode": 8,
+        "versionName": "1.7.0"
+      },
+      {
+        "added": 1753347769000,
+        "apkName": "notality_v1.6.1.apk",
+        "hash": "4086ed6b256f3e25ca40e70a633c720e06d630a617b19741662b0e59b8fe6148",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19940607,
+        "targetSdkVersion": 30,
+        "versionCode": 7,
+        "versionName": "1.6.1"
+      },
+      {
+        "added": 1753347768000,
+        "apkName": "notality_v1.6.0.apk",
+        "hash": "40737ccc9f77f76ea8bee95b732be62bbc8de9092d9b7dd2d3fb5073c4b4f102",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19941052,
+        "targetSdkVersion": 30,
+        "versionCode": 6,
+        "versionName": "1.6.0"
+      },
+      {
+        "added": 1753347768000,
+        "apkName": "notality_v1.5.0.apk",
+        "hash": "38a43c4dd82a90597592514c456319857a76028f3a8d7b9fe30af766a87980c8",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19773651,
+        "targetSdkVersion": 30,
+        "versionCode": 5,
+        "versionName": "1.5.0"
+      },
+      {
+        "added": 1753347767000,
+        "apkName": "notality_v1.4.3.apk",
+        "hash": "321ef6a518804dd8d895f1b75d8ac97bd14367f75eeb2bd7cc5389fbfa425422",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19774565,
+        "targetSdkVersion": 30,
+        "versionCode": 4,
+        "versionName": "1.4.3"
+      },
+      {
+        "added": 1753347766000,
+        "apkName": "notality_v1.4.2.apk",
+        "hash": "408a950aea0dd357a74480cf7599467e5e408bbb4fee39872d37e2ebe1eee159",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19775200,
+        "targetSdkVersion": 30,
+        "versionCode": 3,
+        "versionName": "1.4.2"
+      },
+      {
+        "added": 1753347766000,
+        "apkName": "notality_v1.4.1.apk",
+        "hash": "30cc88d156bd04285f926d6ebd0a7db1212ff6c0f580c6aa283302c4203a4934",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19775056,
+        "targetSdkVersion": 30,
+        "versionCode": 2,
+        "versionName": "1.4.1"
+      },
+      {
+        "added": 1753347763000,
+        "apkName": "notality_v1.0.0.apk",
+        "hash": "ab2781205a0c9a11383099ffe65efc24ed1c7a6d91363c3dcb9a5f607c277b2b",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 18672232,
+        "targetSdkVersion": 30,
+        "versionCode": 1,
+        "versionName": "1.0.0"
+      },
+      {
+        "added": 1753347763000,
+        "apkName": "notality_v1.0.1.apk",
+        "hash": "d8870de8cb06bec2a97741a16cf2b1c3ddfd6ad12a94cb08076be25ae1c9312f",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 18678190,
+        "targetSdkVersion": 30,
+        "versionCode": 1,
+        "versionName": "1.0.1"
+      },
+      {
+        "added": 1753347764000,
+        "apkName": "notality_v1.1.0.apk",
+        "hash": "0fea0e3520d0c78b5bdfe58a7126ef08fe35946599708457f34df37245e777b5",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 18777264,
+        "targetSdkVersion": 30,
+        "versionCode": 1,
+        "versionName": "1.1.0"
+      },
+      {
+        "added": 1753347764000,
+        "apkName": "notality_v1.2.0.apk",
+        "hash": "ba61ec170c9877ff4ce1f3f7cb15f9fb418f82f57c4d3c01553489756a2115c6",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19540674,
+        "targetSdkVersion": 30,
+        "versionCode": 1,
+        "versionName": "1.2.0"
+      },
+      {
+        "added": 1753347765000,
+        "apkName": "notality_v1.3.0.apk",
+        "hash": "c443456385cfe89ce3423ed78e73e1fe08bf22d4c76370ef8c5ae62de54a3871",
+        "hashType": "sha256",
+        "minSdkVersion": 16,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19657134,
+        "targetSdkVersion": 30,
+        "versionCode": 1,
+        "versionName": "1.3.0"
+      },
+      {
+        "added": 1753347765000,
+        "apkName": "notality_v1.4.0.apk",
+        "hash": "e90c0e9372176c33c8a9dcf626fad718d2cd31ddda7f8ae9505c49b77e5a9d4d",
+        "hashType": "sha256",
+        "minSdkVersion": 19,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "io.github.xarantolus.notality",
+        "sig": "3b6c475d25514f30dc14013a39dacf32",
+        "signer": "131be35ae151d89f742eb1ad42fe18e78c878b07941e86a6ee36ab69b2ff72a6",
+        "size": 19775057,
+        "targetSdkVersion": 30,
+        "versionCode": 1,
+        "versionName": "1.4.0"
+      }
+    ]
+  }
+}
